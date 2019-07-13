@@ -1,14 +1,14 @@
 <html>
 <head>
-  <?php include './head.php';?>
+  <?php include './scripts/head.php';?>
 </head>
 <body>
   <div class="header">
-    <?php include './menu.php';?>
+    <?php include './scripts/menu.php';?>
   </div>
   <div class="content">
-    <?php include './under_construction.php';?>
-    <?php include './form.php';?>
+    <?php include './scripts/under_construction.php';?>
+    <?php include './scripts/form.php';?>
   </div>
 </body>
 <html>

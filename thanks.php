@@ -8,7 +8,11 @@
   </div>
   <div class="content">
     <?php include './scripts/under_construction.php';?>
-    <?php include './scripts/form.php';?>
+    <div class="section">
+      <div class="section_text">
+        Thanks for your submission! Look out for our next newsletter!
+      </div>
+    </div>
   </div>
 </body>
 <html>
