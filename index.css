@@ -1,0 +1,65 @@
+* {
+  border-radius: 5px;
+  font-family: Arial;
+}
+body {
+  background-color: #efefef;
+}
+.content {
+  width:80%;
+  margin:auto;
+}
+form {
+  padding: 10px 20%;
+}
+form button {
+  width: 60%;
+  margin: 5px 22.5%;
+  padding: 10px;
+}
+.form_text {
+  text-align: center;
+}
+img {
+  margin: 0px 35%;
+  max-width: 30%;
+}
+input {
+  width: 100%;
+  padding:10px;
+  margin:5px;
+}
+.menu {
+  text-align: center;
+}
+.menu a {
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+.menu a:last-of-type {
+}
+.section {
+  border-radius: 5px;
+  padding: 30px;
+  background-color: white;
+  margin:20px;
+}
+.section_text {
+  text-align: center;
+  font-size: 35px;
+}
+.section_title {
+  font-size: 45px;
+  text-align: center;
+}
+
+/*Begin media queries*/
+@media only screen and (max-width: 650px) {
+  .section_text {
+    font-size: 60px;
+  }
+  .section_title {
+    font-size: 110px;
+  }
+}
