@@ -39,6 +39,15 @@ input {
 }
 .menu a:last-of-type {
 }
+#menu_button {
+  width: 35px;
+  border-radius: 0;
+  display:none;
+  margin: 10px auto;
+}
+.menu_dropdown {
+  display: block;
+}
 .section {
   border-radius: 5px;
   padding: 30px;
@@ -68,6 +77,13 @@ input {
   }
   .menu a {
     font-size: 20px;
+    margin: 0 25%;
+  }
+  #menu_button {
+    display: block;
+  }
+  #dropdown {
+    display:none;
   }
   .section_text {
     font-size: 15px;
