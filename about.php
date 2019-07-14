@@ -7,7 +7,6 @@
     <?php include './scripts/menu.php';?>
   </div>
   <div class="content">
-    <div class="section"><img src="images/logo.png" id="logo"/></div>
     <?php include './scripts/about.php';?>
     <?php include './scripts/testimonials.php';?>
     <?php include './scripts/form.php';?>
