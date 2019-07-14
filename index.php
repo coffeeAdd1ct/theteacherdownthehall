@@ -9,6 +9,7 @@
   <div class="content">
     <?php include './scripts/under_construction.php';?>
     <?php include './scripts/form.php';?>
+    <?php include './scripts/footer.php';?>
   </div>
 </body>
 <html>

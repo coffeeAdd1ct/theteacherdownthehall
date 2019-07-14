@@ -13,6 +13,7 @@
         Thanks for your submission! Look out for our next newsletter!
       </div>
     </div>
+    <?php include './scripts/footer.php';?>
   </div>
 </body>
 <html>
