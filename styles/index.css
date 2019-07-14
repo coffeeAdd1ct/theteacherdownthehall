@@ -23,6 +23,14 @@ body {
   padding: 0 10%;
   margin:auto;
 }
+#dropdown {
+  width: 80%;
+  margin: auto;
+  background-color: #026FBC;
+}
+#dropdown a {
+  color:white;
+}
 .footer {
   text-align: center;
 }
@@ -31,7 +39,7 @@ form {
 }
 form button {
   width: 60%;
-  margin: 5px 22.5%;
+  margin: 5px 20%;
   padding: 10px;
   background-color: #026FBC;
   color:white;
@@ -98,6 +106,12 @@ input {
 .section_title {
   font-size: 45px;
   text-align: center;
+}
+.social_media {
+  margin:auto;
+}
+.social_media img {
+  max-width: 35px;
 }
 .testimonial {
   margin:10px;
