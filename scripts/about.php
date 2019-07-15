@@ -1,5 +1,5 @@
 <div class="section">
-  <div class="section"><img id="banner_image" src="images/notepad_children2.png"/></div>
+  <div class="section"><img id="section_banner_image" src="images/notepad_children2.png"/></div>
 
   <div class="about_label"><u>TEACHING EXPERIENCE</u></div><br>
   <div class="about_description">26 years</div>
