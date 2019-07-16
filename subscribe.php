@@ -1,0 +1,35 @@
+<html>
+<head>
+  <?php include './scripts/head.php';?>
+</head>
+<body>
+  <div class="header">
+    <div class="menu" id="mobile_menu">
+      <svg id="menu_button" viewBox="0 0 26 21" onclick="togglemenu()">
+        <line stroke="currentColor" x1="1" x2="24" y1="2" y2="2" stroke-width="2" stroke-linecap="round"></line>
+        <line stroke="currentColor" x1="1" x2="24" y1="11" y2="11" stroke-width="2" stroke-linecap="round"></line>
+        <line stroke="currentColor" x1="1" x2="24" y1="20" y2="20" stroke-width="2" stroke-linecap="round"></line>
+      </svg>
+      <div id="dropdown">
+        <a href="index.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="products.php">Products</a>
+        <a href="contact.php">Contact</a>
+      </div>
+    </div>
+    <div class="banner">
+      <?php include './scripts/menu.php';?>
+      <img src="images/logo.png" id="banner_logo"/>
+      <div class="banner_image_text">
+        Welcome!
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <?php include './scripts/under_construction.php';?>
+    <?php include './scripts/product_image_carousel.php';?>
+    <?php include './scripts/form.php';?>
+    <?php include './scripts/footer.php';?>
+  </div>
+</body>
+<html>

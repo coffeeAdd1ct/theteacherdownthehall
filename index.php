@@ -17,14 +17,7 @@
         <a href="contact.php">Contact</a>
       </div>
     </div>
-    <div class="banner">
-
-      <?php include './scripts/menu.php';?>
-      <img src="images/logo.png" id="banner_logo"/>
-      <div class="banner_image_text">
-        Welcome!
-      </div>
-    </div>
+    <?php include './scripts/banner.php';?>
   </div>
   <div class="content">
     <?php include './scripts/under_construction.php';?>
