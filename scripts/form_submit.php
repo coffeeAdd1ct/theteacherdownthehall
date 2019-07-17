@@ -60,6 +60,6 @@
   'X-Mailer: PHP/' . phpversion();
   mail($email_to, $email_subject, $email_message, $headers);
 }
-header('Location: http://wwww.theteacherdownthehall.com/subscribe.php?sub=true');
+header('Location: http://www.theteacherdownthehall.com/subscribe.php?sub=true');
 
 ?>

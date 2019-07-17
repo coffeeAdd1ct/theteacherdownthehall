@@ -17,11 +17,25 @@
         <a href="contact.php">Contact</a>
       </div>
     </div>
+
+
+      <!-- // if (getVar() === false || getVar() === null) {
+      //   include './scripts/banner.php';
+      //   echo '</div>' . '<div class="content">';
+      // } else {
+      //   echo '</div>' .
+      //   '<div class="content">' .
+      //     '<div class="section" id="subscribe_logo">' .
+      //       '<img src="images/logo.png" />' .
+      //     '</div>';
+      // }; -->
     <?php include './scripts/banner.php';?>
   </div>
   <div class="content">
+    <div class="section" id="subscribe_logo">
+      <img src="images/logo.png" />
+    </div>
     <?php include './scripts/form.php'; ?>
-    <?php include './scripts/under_construction.php';?>
     <?php include './scripts/footer.php';?>
   </div>
 </body>
