@@ -17,8 +17,8 @@
   font-size:20px;
 }
 .banner {
-  background-image: url("banner_subcribe.png");
-  height: 120%;
+  background-image: url("banner_background.png");
+  height: 100%;
   width: 102%;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,24 +26,31 @@
   position: relative;
   margin-top: -10px;
   margin-left: -10px;
+  display: none;
 }
-.banner_image_text {
-  position: absolute;
-  top: 40%;
-  right: 35%;
-  text-align: center;
-  font-size: 60px;
-  color: white;
+#banner_image_text {
+  margin:0 15%;
+}
+#banner_image_text img {
+  max-width: 75%;
 }
 #banner_logo {
   width: 100%;
   margin: auto;
   max-width: 15%;
 }
+#banner_long_logo {
+  margin: 0 17.5%;
+  width: 65%;
+  max-width: none;
+}
 #banner_products {
   position: absolute;
   top: 200px;
   max-width: 50%;
+}
+.banner_subscribe_text {
+  margin:-10%;
 }
 body {
   background-color: #efefef;
@@ -234,9 +241,15 @@ input {
     font-size: 20px;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .banner {
+    display:block;
+    height:130%;
+  }
+}
 @media only screen and (min-width: 1600px) {
   .banner {
-    height: 130%;
+    display:block;
   }
   #banner_products {
     left: 10%;
