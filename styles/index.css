@@ -5,6 +5,7 @@
 .about_description {
   text-align: center;
   border-bottom: 1px solid #FE0000;
+  border-radius: 0;
   padding-bottom: 10px;
 }
 .about_description:last-of-type {
@@ -137,6 +138,7 @@ input {
   text-align: center;
   border-bottom: 1px solid #FE0000;
   margin-bottom: 25px;
+  border-radius: 0;
 }
 .section {
   border-radius: 5px;
