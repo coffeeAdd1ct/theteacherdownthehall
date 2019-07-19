@@ -47,7 +47,6 @@
 }
 #banner_products {
   position: absolute;
-  top: 200px;
   max-width: 50%;
 }
 .banner_subscribe_text {
@@ -253,7 +252,6 @@ input {
 @media only screen and (min-width: 1200px) {
   .banner {
     display:block;
-    height:130%;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -263,7 +261,12 @@ input {
   #banner_products {
     left: 10%;
   }
+  #banner_image_text {
+    margin: 0 -62%!important;
+  }
+  .banner_subscribe_text {
+    margin: -15% -50%;
+  }
   .menu {
-    top:170px!important;
   }
 }
