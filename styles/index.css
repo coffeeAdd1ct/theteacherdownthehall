@@ -109,10 +109,6 @@ input {
 }
 .menu {
   text-align: center;
-  position: absolute;
-  top:2px;
-  width: 80%;
-  left: 10%;
 }
 .menu a {
   font-size: 30px;
@@ -249,9 +245,32 @@ input {
     display:block;
   }
 }
+@media only screen and (min-width: 750px) {
+  .content {
+  }
+  #dropdown {
+    display: none;
+    width:100%;
+  }
+  #menu_button {
+    display: block;
+  }
+  #mobile_menu {
+    display: block;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .banner {
     display:block;
+  }
+  #dropdown {
+    display: block;
+  }
+  #menu_button {
+    display: none;
+  }
+  #mobile_menu {
+    display: none;
   }
 }
 @media only screen and (min-width: 1600px) {
