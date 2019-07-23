@@ -6,6 +6,9 @@
 <meta property="og:title" content="The Teacher Down The Hall">
 <meta property="og:url" content="http://theteacherdownthehall.com/index.html">
 <meta property="og:site_name" content="The Teacher Down The Hall">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143834831-1"></script>
 <script>
