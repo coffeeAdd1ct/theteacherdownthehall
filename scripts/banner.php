@@ -15,7 +15,7 @@
       <a href="contact.php">Contact</a>
     </div>
   </div> -->
-  <div style="float:right;">
+  <div id="banner_info" style="float:right;">
     <img src="images/banner_right.png" id="banner_image_text" style=""/>
     <a href="#contact_form">
       <div class="banner_subscribe_text">
