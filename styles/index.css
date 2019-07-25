@@ -87,6 +87,7 @@ img {
   text-decoration:none;
   width:50%;
   float: right;
+  color:black;
 }
 input {
   width: 100%;
@@ -128,7 +129,6 @@ input {
 .row {
   margin:15px;
   text-align: center;
-  border-bottom: 1px solid #FE0000;
   margin-bottom: 25px;
   border-radius: 0;
   margin: 10% 0px;
@@ -138,6 +138,9 @@ input {
   padding: 15px;
   background-color: white;
   margin:20px;
+  border:3px dashed #FE0000;
+}
+.section:hover {
   border:5px dashed #FE0000;
 }
 #section_banner_image {
@@ -175,6 +178,9 @@ input {
     max-width: 100%;
     margin: auto;
   }
+  #banner_info {
+    width: 100%
+  }
   #banner_long_logo {
     display: none;
   }
@@ -198,6 +204,9 @@ input {
   }
   #dropdown {
     display:none;
+  }
+  .form_text {
+    max-width: 100%;
   }
   .img_description {
     width:100%;
@@ -262,12 +271,14 @@ input {
 @media only screen and (max-width: 750px) {
   .content {
   }
+
   #banner_products {
     max-width: 100%;
     margin-top: 105%;
   }
   .banner_subscribe_text {
     text-align: center;
+    margin-bottom:10%;
   }
   #dropdown {
     display: none;
@@ -280,33 +291,46 @@ input {
     display: block;
   }
 }
-@media only screen and (max-width: 1200px) {
-  #banner_image_text {
-    margin: -10% 0 0 30%;
-    max-width: 60%;
+@media only screen and (min-width: 750px) {
+  #banner_products {
+    max-width: 100%;
   }
+  .banner_subscribe_text {
+    text-align: center;
+    margin: auto;
+  }
+  #banner_img_description {
+    width: 100%;
+  }
+  #banner_product_image {
+    max-width: 70%;
+  }
+}
+@media only screen and (min-width: 900px) {
   #banner_info {
-    width: 50%;
+    max-width: 50%;
+    margin: -5% 0;
   }
   #banner_products {
     max-width: 50%;
   }
-  .banner_subscribe_text {
-    margin: -15% 15%;
+  #banner_products .row {
+    margin:5% 5% 0 20%;
   }
-  .img_description {
-    font-size: 14px;
-    float: none;
-    width: auto;
-    margin: auto;
+  #banner_img_description {
+    font-size: 15px;
+    width: 40%;
   }
-  .row {
-    margin:0 0 5% 10%;
+  #banner_product_image {
+    max-width: 60%;
   }
 }
 @media only screen and (min-width: 1200px) {
   .banner {
     display:block;
+  }
+  #banner_img_description {
+    font-size: 20px;
   }
   #dropdown {
     display: block;
@@ -323,13 +347,16 @@ input {
     display:block;
   }
   #banner_products {
-    left: 10%;
   }
   #banner_image_text {
-    margin: 0 -62%!important;
+    margin:auto;
+    max-width: 80%;
   }
   .banner_subscribe_text {
-    margin: -15% -50%;
+    margin:auto;
+  }
+  #banner_img_description {
+    font-size: 25px;
   }
   .menu {
   }

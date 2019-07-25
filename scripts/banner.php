@@ -16,7 +16,24 @@
     </div>
   </div> -->
   <div id="banner_info" style="float:right;">
-    <img src="images/banner_right.png" id="banner_image_text" style=""/>
+
+
+
+    <div style="text-align:center;">
+      <div>
+        <div style="margin:5%;">I strive to make my classroom the place my students can't wait to get back to!</div>
+        <img src="images/joyful.jpg" style="border-radius:50%;border:5px solid #fe0000;max-width:50%;margin:0 25%;"/>
+      </div>
+      <br><br>
+      <div style="transform: rotate(-20deg);margin-left:5%;">
+        <div>Most common quote from my students:</div>
+        <div style="font-family:'Caveat Brush', cursive;color:#026FBC;font-size:30px;margin-bottom:10%;">"Can we do this again tomorrow?"</div>
+      </div>
+    </div>
+
+
+
+
     <a href="#contact_form">
       <div class="banner_subscribe_text">
         <b style="color:#FE0000;font-size:30px;text-decoration: none;">FREE PRODUCTS!</b><br>
@@ -27,21 +44,21 @@
   <div id="banner_products">
     <div class="row" style="border-bottom:none;">
       <a href="https://www.teacherspayteachers.com/Store/The-Teacher-Down-The-Hall/Category/BOOM-Cards-289218">
-        <img class="product_image" src="images/Slide2.JPG" />
+        <img class="product_image" id="banner_product_image" src="images/Slide2.JPG" />
       </a>
-      <div class="img_description">Best-selling digital task cards – Graded for you!</div>
+      <div class="img_description" id="banner_img_description">Best-selling digital task cards – Graded for you!</div>
     </div>
     <div class="row" style="border-bottom:none;">
       <a href="https://www.teacherspayteachers.com/Store/The-Teacher-Down-The-Hall/Category/Math-Bingo-Games-258022">
-        <img class="product_image" src="images/Slide3.JPG" />
+        <img class="product_image" id="banner_product_image" src="images/Slide3.JPG" />
       </a>
-      <div class="img_description">Awesome activity for whole-group review !</div>
+      <div class="img_description" id="banner_img_description">Awesome activity for whole-group review !</div>
     </div>
     <div class="row" style="border-bottom:none;">
       <a href="https://www.teacherspayteachers.com/Store/The-Teacher-Down-The-Hall/Category/Worksheets-with-Riddles-250657">
-        <img class="product_image" src="images/Slide1.JPG" />
+        <img class="product_image" id="banner_product_image" src="images/Slide1.JPG" />
       </a>
-      <div class="img_description">Homework that my students beg to complete!</div>
+      <div class="img_description" id="banner_img_description">Homework that my students beg to complete!</div>
     </div>
   </div>
 </div>
