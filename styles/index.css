@@ -25,6 +25,12 @@
 }
 #banner_image_text img {
 }
+#banner_info_img {
+  border-radius:50%;
+  border:5px solid #fe0000;
+  max-width:50%;
+  margin:0 25%;
+}
 #banner_logo {
   width: 100%;
   margin: auto;
@@ -271,7 +277,6 @@ input {
 @media only screen and (max-width: 750px) {
   .content {
   }
-
   #banner_products {
     max-width: 100%;
     margin-top: 105%;
@@ -292,12 +297,20 @@ input {
   }
 }
 @media only screen and (min-width: 750px) {
+  #banner_info_img {
+    margin: auto;
+    max-width: 30%;
+  }
+  #banner_info_text {
+    width: 50%;
+    float: right;
+  }
   #banner_products {
     max-width: 100%;
   }
   .banner_subscribe_text {
     text-align: center;
-    margin: auto;
+    margin: 15% 0% 5%;
   }
   #banner_img_description {
     width: 100%;
@@ -309,7 +322,6 @@ input {
 @media only screen and (min-width: 900px) {
   #banner_info {
     max-width: 50%;
-    margin: -5% 0;
   }
   #banner_products {
     max-width: 50%;
@@ -328,6 +340,9 @@ input {
 @media only screen and (min-width: 1200px) {
   .banner {
     display:block;
+  }
+  .banner_subscribe_text {
+    margin:25% 0% 5%;
   }
   #banner_img_description {
     font-size: 20px;

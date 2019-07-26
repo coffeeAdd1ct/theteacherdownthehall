@@ -16,13 +16,10 @@
     </div>
   </div> -->
   <div id="banner_info" style="float:right;">
-
-
-
     <div style="text-align:center;">
       <div>
-        <div style="margin:5%;">I strive to make my classroom the place my students can't wait to get back to!</div>
-        <img src="images/joyful.jpg" style="border-radius:50%;border:5px solid #fe0000;max-width:50%;margin:0 25%;"/>
+        <div style="margin:5%;" id="banner_info_text">I strive to make my classroom the place my students can't wait to get back to!</div>
+        <img src="images/joyful.jpg" id="banner_info_img" style=""/>
       </div>
       <br><br>
       <div style="transform: rotate(-20deg);margin-left:5%;">
@@ -30,10 +27,6 @@
         <div style="font-family:'Caveat Brush', cursive;color:#026FBC;font-size:30px;margin-bottom:10%;">"Can we do this again tomorrow?"</div>
       </div>
     </div>
-
-
-
-
     <a href="#contact_form">
       <div class="banner_subscribe_text">
         <b style="color:#FE0000;font-size:30px;text-decoration: none;">FREE PRODUCTS!</b><br>
