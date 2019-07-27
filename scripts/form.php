@@ -10,8 +10,8 @@
     $form_open = '<div class="form_text">If you\'d like to enter your email for our mailing list, please do so here. We often send out free products in our newsletter and would love to be able to show you our new items.</div>' .
     '<form method="post" action="./scripts/form_submit.php">';
 
-    $form_close = '<div class="form_text" style="font-size:12px;">We will NEVER share your data or send you spam.</div>' .
-        '<button class="input" id="submit_button" type="submit"><b>SUBMIT</b></button>' .
+    $form_close = '<button class="input" id="submit_button" type="submit"><b>SUBMIT</b></button>' .
+        '<div class="form_text" style="font-size:12px;">We will NEVER share your data or send you spam.<br>Unsubscribe at anytime.</div>' .
       '</form>' .
     '</div>';
 
