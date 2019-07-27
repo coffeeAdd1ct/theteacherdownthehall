@@ -1,28 +1,49 @@
 <?php
-  function getVar() {
-    if (isset($_GET['sub'])) {
-      $x = isset($_GET['sub']);
-      if ($x = 'true') {
-          //echo the url variable 'hell'
-        echo '<div class="section">' .
-          '<div class="section_text">' .
-            'Thanks for your submission! Look out for our next newsletter!' .
-          '</div>' .
-        '</div>';
-        return true;
+  function setForm() {
+
+    $thanks = '<div class="section">' .
+      '<div class="section_text">' .
+        'Thanks for your submission! Look out for our next newsletter!' .
+      '</div>' .
+    '</div>';
+
+    $form_open = '<div class="form_text">If you\'d like to enter your email for our mailing list, please do so here. We often send out free products in our newsletter and would love to be able to show you our new items.</div>' .
+    '<form method="post" action="./scripts/form_submit.php">';
+
+    $form_close = '<div class="form_text" style="font-size:12px;">We will NEVER share your data or send you spam.</div>' .
+        '<button class="input" id="submit_button" type="submit"><b>SUBMIT</b></button>' .
+      '</form>' .
+    '</div>';
+
+    $form_email = '<input id="email_input" placeholder="email" name="email" required></input><br>';
+    $form_name = '<input id="name_input" placeholder="name" name="name"></input><br>';
+    $form_comments = '<input id="comment_input" placeholder="comments" name="comments"></input><br>';
+
+    if ($_SERVER['REQUEST_URI'] === '/subscribe.php') {
+      if (isset($_GET['sub'])) {
+        $x = isset($_GET['sub']);
+        if ($x = 'true') {
+          echo $thanks;
+          return true;
+        }
+      } else {
+        echo '<div class="section id="subscribe_form">' .
+          $form_open . $form_email . $form_close;
+        return false;
       }
     } else {
-      echo '<div class="section" id="contact_form">' .
-        '<div class="form_text">If you\'d like to enter your email for our mailing list, please do so below. We often send out free products in our newsletter and would love to be able to show you our new items.</div>' .
-        '<form method="post" action="./scripts/form_submit.php">' .
-          '<input id="name_input" placeholder="name" name="name" required></input><br>' .
-          '<input id="email_input" placeholder="email" name="email" required></input><br>' .
-          '<input id="comment_input" placeholder="comments" name="comments"></input><br>' .
-          '<button class="input" id="submit_button" type="submit"><b>SUBMIT</b></button>' .
-        '</form>' .
-      '</div>';
-      return false;
+      if (isset($_GET['sub'])) {
+        $x = isset($_GET['sub']);
+        if ($x = 'true') {
+          echo $thanks;
+          return true;
+        }
+      } else {
+        echo '<div class="section" id="contact_form">' .
+          $form_open . $form_email . $form_name . $form_comments . $form_close;
+        return false;
+      }
     }
   }
  ?>
- <?php getVar(); ?>
+ <?php setForm(); ?>

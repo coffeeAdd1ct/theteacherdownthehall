@@ -19,8 +19,8 @@
     </div>
   </div>
   <div class="content">
-    <?php include './scripts/banner.php';?>
     <?php include './scripts/form.php';?>
+    <?php include './scripts/banner.php';?>
     <?php include './scripts/footer.php';?>
   </div>
 </body>

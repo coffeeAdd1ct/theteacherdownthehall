@@ -1,7 +1,6 @@
 <?php
   if(isset($_POST['email'])) {
 
-      // EDIT THE 2 LINES BELOW AS REQUIRED
       $email_to = "kevinbilleaud@gmail.com";
       $email_subject = "Website Contact Form Submission";
 
@@ -21,10 +20,9 @@
           died('We are sorry, but there appears to be a problem with the form you submitted.');
       }
 
-      $name = $_POST['name']; // required
+      $name = $_POST['name'];
       $email_from = $_POST['email']; // required
-      $comments = $_POST['comments']; // required
-
+      $comments = $_POST['comments'];
 
       $error_message = "";
       $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -61,5 +59,6 @@
   mail($email_to, $email_subject, $email_message, $headers);
 }
 header('Location: http://www.theteacherdownthehall.com/subscribe.php?sub=true');
+// header('Location: https://' . $_SERVER['HTTP_HOST'] . '/subscribe.php?sub=true');
 
 ?>
