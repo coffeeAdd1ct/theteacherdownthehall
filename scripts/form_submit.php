@@ -14,15 +14,11 @@
       }
 
       // validation expected data exists
-      if(!isset($_POST['name']) ||
-          !isset($_POST['email']) ||
-          !isset($_POST['comments'])) {
+      if(!isset($_POST['email'])) {
           died('We are sorry, but there appears to be a problem with the form you submitted.');
       }
 
-      $name = $_POST['name'];
       $email_from = $_POST['email']; // required
-      $comments = $_POST['comments'];
 
       $error_message = "";
       $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -33,9 +29,9 @@
 
       $string_exp = "/^[A-Za-z .'-]+$/";
 
-    if(!preg_match($string_exp,$name)) {
-      $error_message .= 'The Name you entered does not appear to be valid.<br />';
-    }
+    // if(!preg_match($string_exp,$name)) {
+    //   $error_message .= 'The Name you entered does not appear to be valid.<br />';
+    // }
 
     if(strlen($error_message) > 0) {
       died($error_message);
@@ -48,9 +44,9 @@
         return str_replace($bad,"",$string);
       }
 
-      $email_message .= "Name: ".clean_string($name)."\n";
+      // $email_message .= "Name: ".clean_string($name)."\n";
       $email_message .= "Email: ".clean_string($email_from)."\n";
-      $email_message .= "Comments: ".clean_string($comments)."\n";
+      // $email_message .= "Comments: ".clean_string($comments)."\n";
 
   // create email headers
   $headers = 'From: '.$email_from."\r\n".
@@ -58,7 +54,7 @@
   'X-Mailer: PHP/' . phpversion();
   mail($email_to, $email_subject, $email_message, $headers);
 }
-header('Location: http://www.theteacherdownthehall.com/subscribe.php?sub=true');
+header('Location: https://www.theteacherdownthehall.com/subscribe.php?sub=true');
 // header('Location: https://' . $_SERVER['HTTP_HOST'] . '/subscribe.php?sub=true');
 
 ?>

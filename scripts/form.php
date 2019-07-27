@@ -41,7 +41,7 @@
         }
       } else {
         echo '<div class="section" id="contact_form">' .
-          $form_open . $form_email . $form_name . $form_comments . $form_close;
+          $form_open . $form_email . $form_close;
         return false;
       }
     }
