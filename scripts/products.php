@@ -1,4 +1,5 @@
 <div class="section" id="products">
+  <div class="section_title">Special Product Categories</div>
   <div class="row">
     <a href="https://www.teacherspayteachers.com/Store/The-Teacher-Down-The-Hall/Category/BOOM-Cards-289218">
       <img class="product_image" src="images/Slide2.JPG" />

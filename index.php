@@ -6,4 +6,5 @@
   <div class="content">
     <?php include './scripts/banner.php';?>
     <?php include './scripts/form.php';?>
+    <?php include './scripts/carousel.php';?>
     <?php include './scripts/footer.php';?>

@@ -3,7 +3,7 @@
     $('.single-item').slick({
       dots: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 4000,
     });
   });
 </script>
