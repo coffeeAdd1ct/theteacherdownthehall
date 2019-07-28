@@ -1,7 +1,4 @@
-<html>
-<head>
-  <?php include './scripts/head.php';?>
-</head>
+<?php include './scripts/head.php';?>
 <body>
   <div class="header">
     <?php include './scripts/menu.php';?>
@@ -14,7 +11,5 @@
       <div class="section_text">We have a multitude of products that will benefit upper elementary teachers looking for ways to add excitement to their mandated curriculum.   Check below for some of our best-selling products.</div>
     </div>
     <?php include './scripts/products.php';?>
+    <?php include './scripts/carousel.php';?>
     <?php include './scripts/footer.php';?>
-  </div>
-</body>
-<html>

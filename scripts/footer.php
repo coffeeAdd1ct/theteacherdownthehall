@@ -8,6 +8,10 @@
     <div>Email us at <a href="mailto:Contact@TheTeacherDownTheHall.com">Contact@TheTeacherDownTheHall.com</a>
     </div>
     <br>
-    Website built by <a href="http://kevinbilleaud.com">Kevin Billeaud</a>
+    <a href="http://kevinbilleaud.com">Website by Kevin</a>
   </div>
 </div>
+</div>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>

@@ -1,7 +1,4 @@
-<html>
-<head>
-  <?php include './scripts/head.php';?>
-</head>
+<?php include './scripts/head.php';?>
 <body>
   <div class="header">
   </div>
@@ -11,6 +8,3 @@
       <div class="section_text">Click <a href="index.php">HERE to get back Home.</a></div>
     </div>
     <?php include './scripts/footer.php';?>
-  </div>
-</body>
-<html>

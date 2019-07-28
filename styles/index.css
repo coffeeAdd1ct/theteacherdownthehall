@@ -53,6 +53,12 @@
 body {
   background-color: #b5b5b5;
 }
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  color: #333;
+  background: #026FBC;
+}
 .content {
   padding: 0 10%;
   margin:auto;
@@ -163,6 +169,15 @@ input {
 .section_title {
   font-size: 45px;
   text-align: center;
+}
+.single-item {
+}
+.slick-slide {
+  text-align: center;
+  color: #419be0;
+  background: white;
+  height:auto!important;
+  background-color: #026FBC;
 }
 .social_media {
   margin:auto;

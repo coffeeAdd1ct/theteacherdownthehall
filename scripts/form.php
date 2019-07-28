@@ -12,6 +12,7 @@
         '<div class="form_text" style="font-size:12px;">We will NEVER share your data or send you spam.<br>Unsubscribe at anytime.</div>' .
       '</form>' .
     '</div>';
+    //declare form variable sections
     $form_email = '<input id="email_input" placeholder="email" name="email" required></input><br>';
     $form_name = '<input id="name_input" placeholder="name" name="name"></input><br>';
     $form_comments = '<input id="comment_input" placeholder="comments" name="comments"></input><br>';

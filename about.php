@@ -1,7 +1,4 @@
-<html>
-<head>
-  <?php include './scripts/head.php';?>
-</head>
+<?php include './scripts/head.php';?>
 <body>
   <div class="header">
     <?php include './scripts/menu.php';?>
@@ -11,6 +8,3 @@
     <?php include './scripts/testimonials.php';?>
     <?php include './scripts/form.php';?>
     <?php include './scripts/footer.php';?>
-  </div>
-</body>
-<html>
