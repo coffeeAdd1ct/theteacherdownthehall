@@ -13,10 +13,10 @@
         <div style="font-family:'Caveat Brush', cursive;color:#026FBC;font-size:30px;margin-bottom:10%;">"Can we do this again tomorrow?"</div>
       </div>
     </div>
-    <a href="#contact_form">
+    <a href="#contact_form" style="text-decoration: none;">
       <div class="banner_subscribe_text">
-        <b style="color:#FE0000;font-size:30px;text-decoration: none;">FREE PRODUCTS!</b><br>
-        Subscribe to our newsletter below!
+        <b style="color:#FE0000;font-size:30px;">FREE PRODUCTS!</b><br>
+        <div style="color:#026FBC">Subscribe to our newsletter below!</div>
       </div>
     </a>
   </div>
