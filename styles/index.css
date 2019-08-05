@@ -136,6 +136,32 @@ input {
 #mobile_menu {
   display: none;
 }
+#referral_link a {
+}
+#referral_link button {
+  background-color: #e7e7e7;
+  border: none;
+  color: black;
+  max-width: 50%;
+  margin: 1em;
+  cursor:pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#referral_link .section_text {
+  font-family: 'Indie Flower', cursive!important;
+}
+#referral_link button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: 5000;
+}
+#referral_link img {
+  max-width: 10%;
+}
 .right-50 {
 }
 .row {
@@ -165,6 +191,7 @@ input {
 .section_text {
   text-align: center;
   font-size: 25px;
+  text-decoration: none;
 }
 .section_title {
   font-size: 45px;
@@ -266,6 +293,9 @@ input {
   }
   .product_image {
     margin: 10px 35%;
+  }
+  #referral_link img {
+    max-width: 20%;
   }
   .right-50 {
     float: none;

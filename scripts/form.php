@@ -3,7 +3,13 @@
     //declare form sections
     $thanks = '<div class="section">' .
       '<div class="section_text">' .
-        'Thanks for your submission! Look out for our next newsletter!' .
+        'Thanks for your submission! You will receive a new set of Boom cards by the 20th of each month. In the meantime, feel free to check out my entire collection, they\'re all listed in my TeachersPayTeachers store.' .
+      '</div>' .
+      '<div class="section_text" id="referral_link">' .
+        '<button onclick="window.location.href=\'https://www.teacherspayteachers.com/Store/The-Teacher-Down-The-Hall\';">' .
+            '<img src="images/tpt_logo.png" />' .
+            '<div class="section_text">Click Here!</div>' .
+        '</button>' .
       '</div>' .
     '</div>';
     $form_open = '<div class="form_text">If you\'d like to enter your email for our mailing list, please do so here. We often send out free products in our newsletter and would love to be able to show you our new items.</div>' .
